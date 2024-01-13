@@ -1,0 +1,3 @@
+// SQLiteAssetHelper library implement ....
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
+//create tabel in bd drowser sortware
