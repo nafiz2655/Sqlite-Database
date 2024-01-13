@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:layout_weight="1"
+            android:background="#D3EAB8"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/image"
+                android:layout_weight="70"
+                android:layout_margin="3dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF5722"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hello"
+                    android:paddingLeft="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="3dp"
+                    />
+                <TextView
+                    android:id="@+id/roll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hello"
+                    android:paddingLeft="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="3dp"
+
+                    />
+                <TextView
+                    android:id="@+id/clas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hello"
+                    android:paddingLeft="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="3dp"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#E6CDA7"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/father"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginTop="3dp"
+                />
+
+            <TextView
+                android:id="@+id/mother"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:layout_marginTop="3dp"
+
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:paddingLeft="10dp"
+                android:textSize="18dp"
+                android:layout_marginTop="3dp"
+                android:textColor="#000"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
